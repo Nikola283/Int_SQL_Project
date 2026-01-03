@@ -14,12 +14,12 @@ The goal is to identify high-value customers, understand revenue trends across c
 ## Tools & Technologies
 
 - Database: PostgreSQL
-- SQL Client: DBeaver
--    Views & aggregations
--    Window functions
--    Cohort analysis
--    Customer lifetime value (LTV)
--    Retention & churn logic
+- CTEs & Views
+- Aggregations & GROUP BY
+- Window Functions (ROW_NUMBER, LAG, cumulative metrics)
+- Cohort Analysis (First purchase date logic)
+- Customer Lifetime Value (LTV)
+- Retention & churn identification
 
 ## Clean Up Data
 
@@ -115,5 +115,5 @@ Customer activity was analyzed to identify churn risk and long-term retention pa
 
 ## Conclusion
 
-- This project demonstrates how SQL can be used not only for querying data, but for driving strategic business decisions.
-- By combining customer segmentation, cohort analysis, and retention logic, the analysis uncovers actionable insights to improve revenue stability and customer lifetime value.
+- This project demonstrates how SQL can be used beyond reporting—serving as a foundation for customer analytics, retention strategy, and revenue optimization.
+- The analysis highlights how structured queries and business logic can directly inform strategic decision-making in an e-commerce environment.
